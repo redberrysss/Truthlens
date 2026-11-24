@@ -1,0 +1,19 @@
+name: truthlens
+description: Accessible media literacy prototype.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.0
+  shared_preferences: ^2.5.3
+  share_plus: ^12.0.1
+  cross_file: ^0.3.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
